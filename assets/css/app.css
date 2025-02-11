@@ -1,0 +1,30 @@
+/* Import scoped CSS rules for components */
+@import "./_components.css";
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* This file is for your main application CSS */
+@import "../../deps/moon/priv/static/themes/moon.css";
+@import "../../deps/moon/assets/css/app.css";
+
+.close_button {
+  @apply bg-gray-200 text-gray-700 px-4 py-2 rounded-md font-semibold hover:bg-gray-300 transition;
+}
+
+.add_button {
+  @apply bg-gray-900 text-white px-4 py-2 rounded-md font-semibold hover:bg-gray-600 transition;
+}
+
+.edit_button {
+  @apply bg-blue-500 text-white px-4 py-2 rounded-md font-semibold hover:bg-blue-600 transition;
+}
+
+.delete_button {
+  @apply bg-red-500 text-white px-4 py-2 rounded-md font-semibold hover:bg-red-600 transition;
+}
+
+.column_class {
+@apply border border-gray-300 px-4 py-2 text-left;
+}
