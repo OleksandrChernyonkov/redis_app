@@ -1,7 +1,7 @@
 version: "3"
 services:
   redis:
-    image: redis:alpine   # Используем легкий образ Redis
+    image: redis:alpine   
     ports:
       - "6379:6379"
     restart: always
@@ -16,8 +16,7 @@ services:
       - REDIS_URL=redis://redis:6379
     restart: always
     volumes:
-      - .:/app  # Это подходит для разработки, не забудьте убрать для продакшн
+      - .:/app 
 
-    # Лучше настроить рабочую директорию и команду для более гибкой работы
     working_dir: /app
     command: ["mix", "phx.server"]
