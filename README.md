@@ -19,4 +19,6 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 
 ## Video presentation
 
-[![Video Title](https://img.youtube.com/vi/KQSYkuUIjeo/0.jpg)](https://youtu.be/KQSYkuUIjeo)
+[![Watch this video](https://img.youtube.com/vi/fvXLCA94xsk/0.jpg)](https://www.youtube.com/watch?v=fvXLCA94xsk)
+
+
